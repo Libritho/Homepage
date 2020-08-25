@@ -21,3 +21,9 @@ function addListeners () {
         }
     }
 }
+fetch('https://api.unsplash.com/search/photos?client_id=d1qplN8zd1k3SAGdyXJIM5fAA30MkNSBSDRNY3qW8c0&per_page=5&page=1&query=office')
+    .then(function (response) {
+        response.json().then(function (data) {
+            console.log('data', data)
+        })
+    })
