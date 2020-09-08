@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 header {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: flex-start;*/
     background-image: url("images/phototop.png");
     background-size: cover;
     height: 100vh;
@@ -21,43 +18,33 @@ header {
     flex-direction: column;
     justify-content: space-between;
 }
-/*.buts {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-content: space-between;
-}*/
 .blockDivs {
     height: 373px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 378px;
-    margin-right: 378px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 80px;
     text-align: center;
     align-items: center;
     padding-bottom: 80px;
-
 }
 .smallLine {
     display: block;
-
 }
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*margin-top: 45px;*/
 }
 .nav {
-    width: 637px;
+    width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
     margin-top: 64px;
-
 }
 .nav a {
     height: 10px;
@@ -66,32 +53,27 @@ nav {
     font-size: 14px;
     font-weight: 300;
     text-decoration: none;
-
 }
 .iconsTop {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 63px;
-
+    margin-right: 11%;
 }
-
-
 .logoTop img {
     width: 179px;
     height: 56px;
-
 }
 .logoTop {
-    margin-right: 219px;
+    margin-right: 9%;
     margin-top: 40px;
-    margin-left: 376px;
+    margin-left: 8%;
 }
     .section {
         margin-top: 300px;
         display: flex;
         justify-content: space-between;
-
     }
     .uniq {
         font-size: 30px;
@@ -99,8 +81,6 @@ nav {
         color: rgb(255, 255, 255);
         line-height: 1.2;
         text-align: center;
-
-
 }
     .psd-template {
         font-size: 42px;
@@ -108,34 +88,31 @@ nav {
         color: rgb(255, 255, 255);
         line-height: 1.2;
         text-align: center;
-
     }
     .descript {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         font-size: 16px;
         font-family: 'Montserrat', sans-serif;;
         color: rgba(255, 255, 255,0.6);
         line-height: 1.5;
         text-align: center;
 }
-
 .button {
-    display: flex;
-    justify-content: center;
     border-radius: 6%;
     background-color: #998675;
-    /*box-shadow: 12px 12px 2px 1px rgba(45.1%, 38.8%, 34.1%, .2);*/
     width: 170px;
     height: 53px;
     text-align: center;
     align-items: center;
-    margin-left: 878px;
+    line-height: 53px;
     margin-top: 55px;
     font-family: 'Raleway', sans-serif;;
     font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
     box-shadow: inset 0 -3px 0 #736357;
-
 }
 .buts {
     width: 195px;
@@ -154,41 +131,27 @@ nav {
     font-weight: 300;
     line-height: 24px;
 }
-
 header nav img {
     width: 30px;
     height: 30px;
-
 }
-/*.arrows {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}*/
 .arr {
     width: 100px;
     margin-left: 150px;
-
 }
 .arr1 {
     width: 100px;
     margin-right: 150px;
-
 }
-
 .icon-bye {
     width: 24px;
     height: 24px;
     margin-right: 24px;
     margin-top: 55px;
 }
-
-
 .icon-search {
     width: 24px;
     height: 24px;
-    margin-right: 374px;
     margin-top: 55px;
 }
 .slides {
@@ -208,7 +171,6 @@ header nav img {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: 400;
-
 }
 .slides p {
     margin-top: 24px;
@@ -228,8 +190,6 @@ header nav img {
     flex-direction: row;
     justify-content: center;
     overflow: hidden;
-
-
 }
 #picture-center {
     width: 770px;
@@ -247,7 +207,6 @@ header nav img {
 }
 .purchase-theme span {
     color: #c7b299;
-
 }
 .rate-template {
     width: 456px;
@@ -261,27 +220,25 @@ header nav img {
 .brown-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 150px;
     background-color: #f4f5f8;
     background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }
 .purchase {
-    width: 50%;
+    width: 70%;
+    height: 150px;
     padding-top: 48px;
-    margin-left: 500px;
+    margin-left: 35%;
     text-align: left;
-
 }
 .btn {
     padding-top: 48px;
     width: 50%;
-
 }
 .btn:hover {
     cursor: pointer;
-
 }
 .purchase-now {
     width: 170px;
@@ -295,21 +252,13 @@ header nav img {
     font-weight: 800;
     line-height: 23px;
     text-transform: uppercase;
-
 }
-
-
-
-
-
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin-top: 37px;
     margin-bottom: 15px;
 }
-
-
 .dot {
     height: 15px;
     width: 15px;
@@ -322,11 +271,9 @@ header nav img {
 .dot:hover {
     cursor: pointer;
 }
-
 .active {
     background-color: #717171;
 }
-
 #latest-project {
     height: 28px;
     color: #555555;
@@ -346,22 +293,16 @@ header nav img {
     line-height: 28px;
     text-align: center;
     margin-top: 24px;
-
 }
 .latest-projects {
-
     display: flex;
     justify-content: center;
-
 }
 .btns-latest-project {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 40px;
-
-
 }
 .btns-latest-project button {
     width: 135px;
@@ -380,6 +321,45 @@ header nav img {
     background-color: #998675;
     color: #e7e2de;
 }
+@media only screen and (max-width: 1250px) {
+    .blockDivs {
+        margin-left: 15%;
+        display: flex;
+        justify-content: stretch;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .blockDivs {
+        margin-left: 10%;
+    }
+}
+    @media only screen and (max-width: 1200px) {
+        .blockDivs {
+            margin-left: 5%;
+        }
+}
+@media only screen and (max-width: 1000px) {
+    .blockDivs {
+        margin-left: 35%;
+        margin-right: auto;
+        height: 200%;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .purchase {
+        width: 84%;
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .purchase {
+        width: 94%;
+        margin-left: 20%;
+    }
+}
+
+/*
 @media only screen and (max-width: 1600px) {
     .logoTop {
         margin-left: 230px;
@@ -388,7 +368,6 @@ header nav img {
     .logoTop {
         margin-left: 190px;
     }
-
     header {
         width: auto;
     }
@@ -397,7 +376,6 @@ header nav img {
         flex-direction: row;
         justify-content: space-between;
         margin-left: 30px;
-
     }
 }
 @media only screen and (max-width: 1400px) {
@@ -405,7 +383,6 @@ header nav img {
      margin-left: 160px;
      margin-right: 100px;
  }
-
     header {
         width: auto;
     }
@@ -414,14 +391,12 @@ header nav img {
         flex-direction: row;
         justify-content: space-between;
         margin-left: 30px;
-
     }
 }
 @media only screen and (max-width: 1350px) {
     .logoTop {
         margin-left: 140px;
     }
-
     }
 @media only screen and (max-width: 1300px) {
     .logoTop {
@@ -434,8 +409,6 @@ header nav img {
         margin-right: 10px;
         margin-top: 25px;
     }
-
-
     .icon-search {
         width: 24px;
         height: 24px;
@@ -452,7 +425,6 @@ header nav img {
         margin-left: 120px;
     }
 }
-
     @media only screen and (max-width: 1000px) {
         .logoTop  {
             width: 179px;
@@ -468,14 +440,12 @@ header nav img {
             justify-content: space-between;
             text-align: left;
             margin-top: 64px;
-
         }
         .iconsTop {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             margin-left: 20px;
-
         }
         .icon-bye {
             width: 24px;
@@ -483,8 +453,6 @@ header nav img {
             margin-right: 12px;
             margin-top: 20px;
         }
-
-
         .icon-search {
             width: 24px;
             height: 24px;
@@ -492,7 +460,6 @@ header nav img {
             margin-top: 15px;
         }
     }
-
 @media only screen and (max-width: 800px) {
     .logoTop  {
         width: 179px;
@@ -506,7 +473,6 @@ header nav img {
         flex-direction: row;
         justify-content: space-between;
         margin-left: 15px;
-
     }
     .icon-search {
         width: 24px;
@@ -514,9 +480,7 @@ header nav img {
         margin-right: 50px;
         margin-top: 15px;
     }
-
 }
-
 @media only screen and (max-width: 550px) {
     .logoTop  {
         width: 179px;
